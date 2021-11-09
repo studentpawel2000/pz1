@@ -22,7 +22,7 @@ int main(){
 		
 		cout << "Miejsce zerowe funkcji to: " << x0; 
 	
-// Aktualizacja / test Piod
+// Aktualizacja / test Piod /test v100
 	
 	
 	
