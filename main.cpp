@@ -10,11 +10,13 @@ using namespace std;
 
     cout<<"Program zwraca miejsce zerowe funkcji kwadratowej postaci ax^2+bx+c";                                                                                                                // Tekst wyœwietlany na konsoli.
 
-    cout<<"\n Podaj wspolczynnik kierunkowy prostej a =/0"<<endl; cin>>a;
-    if(a==0) cout<<"a musi byc a/=0 podaj a ::  "<<endl, cin>> a; //sprawdzanie warunku a
-    
+    cout<<"\n Podaj wspolczynnik kierunkowy prostej a =/0"<<endl; cin>>a;   
+     if(a==0){
+	 
+    cout<<"Niema takiej funkcji kwadratowej  ";
+	exit(0); 
+	}//sprawdzanie warunku a
     cout<<"Podaj wspolczynnik b "<<endl; cin>>b;
-
     cout<<"Podaj wspolczynnik c "<<endl; cin>>c;
 
 
